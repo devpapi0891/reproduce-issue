@@ -18,7 +18,11 @@ pnpm dev
 - Connect your device to your computer via USB cable
 
 ```bash
-pnpm build
+npx cap add android
+```
+
+```bash
+pnpm build-sync-run-android
 ```
 
 
